@@ -10,6 +10,10 @@ export var single = [
   {
     "name": "France",
     "value": 7200000
+  },
+    {
+    "name": "India",
+    "value": 9800000
   }
 ];
 

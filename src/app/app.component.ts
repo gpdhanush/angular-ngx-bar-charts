@@ -9,11 +9,9 @@ import { single, multi } from './data';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-     single: any[];
+  single: any[];
   multi: any[];
-
   view: any[] = [700, 400];
-
   // options
   showXAxis = true;
   showYAxis = true;
@@ -23,7 +21,6 @@ export class AppComponent  {
   xAxisLabel = 'Country';
   showYAxisLabel = true;
   yAxisLabel = 'Population';
-
   colorScheme = {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
   };
